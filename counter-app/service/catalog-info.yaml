@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: counter-service
+  name: AvengerDatabase
   description: A simple counter service
   tags:
     - kotlin
@@ -10,6 +10,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: group:guests
-  system: counter-app
+  system: Defendcity
   providesApis: 
-    - api:counter-api
+    - api:FindAvengerAvailability

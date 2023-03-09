@@ -2,7 +2,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: counter-app
-  description: Counter Application for managing counters
+  name: Defendcity
+  description: Defend city from criminals
+  annotations:
+   backstage.io/techdocs-ref: dir:..
 spec:
   owner: group:guests

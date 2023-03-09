@@ -1,0 +1,5 @@
+site_name: Defenders
+nav:
+ - Home: index.md
+plugins:
+ - techdocs-core
